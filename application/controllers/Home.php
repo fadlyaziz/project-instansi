@@ -12,7 +12,7 @@ class Home extends CI_Controller
         $data['dtinstansi'] = $this->Mhome->instansi_limit();
         $data['dtsiswa'] = $this->Mhome->siswa_limit();
         // membuat variabel active untuk membedakan menu
-        $data['title'] = "Homes";
+        $data['title'] = "Home";
         $data['mhometampil'] = true;
         //setelah itu model akan mengirimkan data sesuai permintaan yang akan diteruskan melalui view perhatikan parameter array yang ada di $data['dtguru] $data['dtsiswa]
 
